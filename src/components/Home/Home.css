@@ -1,0 +1,63 @@
+.c-item{
+    width: 100%;
+    max-height: 500px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.home-category-container{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.home-category-heading{
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.home-category-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.card {
+    width: 300px;
+    height: 400px;
+    background-image: url('https://i.pinimg.com/236x/78/60/cb/7860cb4dc76382f1f4a2dbe1f36a68c4.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style the card content */
+.card-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    margin-top: 210px;
+}
+
+/* Style the button */
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Scale the background image on hover */
+.card:hover {
+    transform: scale(1.1);
+}
+
+
